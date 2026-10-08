@@ -1,0 +1,65 @@
+[
+  {
+    "id": "DEPT-001",
+    "name": "Hostel Department",
+    "key": "hostel",
+    "adminIds": ["U002"],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-002",
+    "name": "Academic Department",
+    "key": "academic",
+    "adminIds": ["U004"],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-003",
+    "name": "Examination Cell",
+    "key": "examination",
+    "adminIds": ["U004"],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-004",
+    "name": "Campus Maintenance",
+    "key": "campus_maintenance",
+    "adminIds": ["U002"],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-005",
+    "name": "Administration Office",
+    "key": "administration",
+    "adminIds": ["U002"],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-006",
+    "name": "Anti-Ragging Committee",
+    "key": "ragging",
+    "adminIds": [],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-007",
+    "name": "Anti-Harassment Cell",
+    "key": "harassment",
+    "adminIds": [],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-008",
+    "name": "Safety & Security",
+    "key": "threat_assault",
+    "adminIds": [],
+    "hodId": "U003"
+  },
+  {
+    "id": "DEPT-009",
+    "name": "General Grievance Cell",
+    "key": "other",
+    "adminIds": ["U002"],
+    "hodId": "U003"
+  }
+]

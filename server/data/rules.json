@@ -1,0 +1,132 @@
+{
+  "categories": {
+    "campus_maintenance": {
+      "label": "Campus Maintenance",
+      "defaultSeverity": "normal",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Assigned",
+        "Inspection",
+        "Action/Repair",
+        "Resolution Proposed"
+      ]
+    },
+    "hostel": {
+      "label": "Hostel",
+      "defaultSeverity": "normal",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Assigned",
+        "Inspection",
+        "Action/Repair",
+        "Resolution Proposed"
+      ]
+    },
+    "academic": {
+      "label": "Academic",
+      "defaultSeverity": "high",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Assigned",
+        "Investigation/Action",
+        "Resolution Proposed"
+      ]
+    },
+    "examination": {
+      "label": "Examination",
+      "defaultSeverity": "high",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Examination Department",
+        "Documents Verified",
+        "Decision/Action",
+        "Resolution Proposed"
+      ]
+    },
+    "ragging": {
+      "label": "Ragging",
+      "defaultSeverity": "critical",
+      "externalReportEligible": true,
+      "stages": [
+        "Received",
+        "Authorized Authority Notified",
+        "Investigation",
+        "Action Taken",
+        "Resolution Proposed"
+      ]
+    },
+    "harassment": {
+      "label": "Harassment",
+      "defaultSeverity": "critical",
+      "externalReportEligible": true,
+      "stages": [
+        "Received",
+        "Authorized Authority Notified",
+        "Investigation",
+        "Action Taken",
+        "Resolution Proposed"
+      ]
+    },
+    "threat_assault": {
+      "label": "Threat / Assault",
+      "defaultSeverity": "critical",
+      "externalReportEligible": true,
+      "stages": [
+        "Received",
+        "Authorized Authority Notified",
+        "Investigation",
+        "Action Taken",
+        "Resolution Proposed"
+      ]
+    },
+    "administration": {
+      "label": "Administration",
+      "defaultSeverity": "normal",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Assigned",
+        "Investigation/Action",
+        "Resolution Proposed"
+      ]
+    },
+    "other": {
+      "label": "Other",
+      "defaultSeverity": "normal",
+      "externalReportEligible": false,
+      "stages": [
+        "Received",
+        "Assigned",
+        "Investigation/Action",
+        "Resolution Proposed"
+      ]
+    }
+  },
+  "sla": {
+    "normal": {
+      "workingDays": 7,
+      "warningThresholdPercent": 80
+    },
+    "high": {
+      "workingDays": 3,
+      "warningThresholdPercent": 70
+    },
+    "critical": {
+      "workingDays": 1,
+      "warningThresholdPercent": 50
+    }
+  },
+  "escalation": {
+    "hodPeriodDays": 3,
+    "workingDaysOnly": true
+  },
+  "workingHours": {
+    "startHour": 9,
+    "endHour": 18,
+    "workingDays": [1, 2, 3, 4, 5]
+  }
+}

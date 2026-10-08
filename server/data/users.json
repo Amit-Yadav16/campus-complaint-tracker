@@ -1,0 +1,38 @@
+[
+  {
+    "id": "U001",
+    "name": "Alice Student",
+    "collegeEmail": "alice@college.edu",
+    "mobile": "9800000001",
+    "role": "student",
+    "department": null,
+    "passwordHash": "$2a$10$ABtbscA2hhwnn6QVx2i5duNmugGkwibM2pAQOgx./kCE/3A6lIvYC"
+  },
+  {
+    "id": "U002",
+    "name": "Bob Admin",
+    "collegeEmail": "bob.admin@college.edu",
+    "mobile": "9800000002",
+    "role": "admin",
+    "department": "hostel",
+    "passwordHash": "$2a$10$ABtbscA2hhwnn6QVx2i5duNmugGkwibM2pAQOgx./kCE/3A6lIvYC"
+  },
+  {
+    "id": "U003",
+    "name": "Carol HOD",
+    "collegeEmail": "carol.hod@college.edu",
+    "mobile": "9800000003",
+    "role": "hod",
+    "department": null,
+    "passwordHash": "$2a$10$ABtbscA2hhwnn6QVx2i5duNmugGkwibM2pAQOgx./kCE/3A6lIvYC"
+  },
+  {
+    "id": "U004",
+    "name": "Dave Admin",
+    "collegeEmail": "dave.admin@college.edu",
+    "mobile": "9800000004",
+    "role": "admin",
+    "department": "academic",
+    "passwordHash": "$2a$10$ABtbscA2hhwnn6QVx2i5duNmugGkwibM2pAQOgx./kCE/3A6lIvYC"
+  }
+]

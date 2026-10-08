@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: campus-complaint-tracker
+    env: node
+    region: singapore          # closest to India
+    plan: free
+    buildCommand: npm install --prefix server && npm install --prefix client && npm run build --prefix client
+    startCommand: node server/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true    # Render auto-generates a secure random value
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: PORT
+        value: 10000           # Render's default port

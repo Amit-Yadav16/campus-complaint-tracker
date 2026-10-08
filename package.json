@@ -1,0 +1,15 @@
+{
+  "name": "campus-complaint-tracker",
+  "version": "1.0.0",
+  "description": "Campus Complaint Tracker - React + Node.js prototype",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "node server/server.js",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

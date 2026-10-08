@@ -66,15 +66,19 @@ export default function Navbar() {
     <nav className="bg-white border-b border-gray-200 px-4 sm:px-6 py-3 flex items-center justify-between sticky top-0 z-50 shadow-sm">
       {/* Brand */}
       <div className="flex items-center gap-2">
-        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
-          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-              d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        <div className="w-9 h-9 bg-blue-700 rounded-xl flex items-center justify-center shrink-0" style={{background:'linear-gradient(135deg,#1d4ed8,#1e40af)'}}>
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="none">
+            <path d="M24 2L4 10V26C4 36.5 13 44.8 24 47C35 44.8 44 36.5 44 26V10L24 2Z" fill="white" fillOpacity="0.15" stroke="white" strokeWidth="1.5"/>
+            <path d="M24 14L12 19.5L24 25L36 19.5L24 14Z" fill="white"/>
+            <path d="M18 22V29C18 29 20 31.5 24 31.5C28 31.5 30 29 30 29V22" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+            <line x1="36" y1="19.5" x2="36" y2="26" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+            <circle cx="36" cy="27" r="1.5" fill="white"/>
           </svg>
         </div>
-        <span className="font-bold text-gray-800 text-sm sm:text-base leading-tight">
-          Campus<br className="sm:hidden" /> Complaint Tracker
-        </span>
+        <div className="leading-tight">
+          <span className="font-black text-gray-900 text-lg tracking-tight">UNMUTE</span>
+          <p className="text-[9px] text-gray-400 font-medium -mt-0.5">Your Voice | Our Responsibility</p>
+        </div>
       </div>
 
       <div className="flex items-center gap-3">

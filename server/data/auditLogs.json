@@ -1,1 +1,237 @@
-[]
+[
+  {
+    "id": "72274250-429d-49d1-b16d-793d8f80a967",
+    "action": "COMPLAINT_CREATED",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U001",
+    "details": {
+      "category": "examination",
+      "severity": "high"
+    },
+    "timestamp": "2026-10-08T18:08:31.705Z"
+  },
+  {
+    "id": "5e67cb87-e1e1-4c6a-a7cc-982cf78c321d",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U004",
+    "details": {
+      "stage": "Received",
+      "nextStage": "Examination Department",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:09:46.885Z"
+  },
+  {
+    "id": "a59e8fcf-c3e3-4c1a-97d5-44f11d89710e",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U004",
+    "details": {
+      "stage": "Examination Department",
+      "nextStage": "Documents Verified",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:09:48.009Z"
+  },
+  {
+    "id": "d789679e-17a5-48d8-970b-9bf3d5898d83",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U004",
+    "details": {
+      "stage": "Documents Verified",
+      "nextStage": "Decision/Action",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:09:50.406Z"
+  },
+  {
+    "id": "c1df4f78-336a-4e74-b58d-2da81e9e097e",
+    "action": "COMPLAINT_CREATED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U001",
+    "details": {
+      "category": "threat_assault",
+      "severity": "critical"
+    },
+    "timestamp": "2026-10-08T18:12:40.260Z"
+  },
+  {
+    "id": "dfa9d4d6-b878-4b65-9d91-5ed0d0ecd676",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U003",
+    "details": {
+      "stage": "Received",
+      "nextStage": "Authorized Authority Notified",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:14:46.679Z"
+  },
+  {
+    "id": "c0440d35-9c6d-4b9e-a728-c6d854473ba3",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U003",
+    "details": {
+      "stage": "Authorized Authority Notified",
+      "nextStage": "Investigation",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:14:48.786Z"
+  },
+  {
+    "id": "bb61311d-e039-4388-936f-02e34a654337",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U003",
+    "details": {
+      "stage": "Investigation",
+      "nextStage": "Action Taken",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:14:52.066Z"
+  },
+  {
+    "id": "1b0ee003-cb6f-482e-8e21-4154106094f3",
+    "action": "RESOLUTION_PROPOSED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U003",
+    "details": {
+      "description": "sdddddd"
+    },
+    "timestamp": "2026-10-08T18:15:02.090Z"
+  },
+  {
+    "id": "fe07fcae-736d-41af-8d54-d014ef48b2ad",
+    "action": "RESOLUTION_PROPOSED",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U003",
+    "details": {
+      "description": "add"
+    },
+    "timestamp": "2026-10-08T18:15:29.232Z"
+  },
+  {
+    "id": "d75ef57b-8743-469c-9cd7-4c77ed99cf85",
+    "action": "STUDENT_CONFIRMATION",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U001",
+    "details": {
+      "response": "no",
+      "newStatus": "reopened"
+    },
+    "timestamp": "2026-10-08T18:15:48.139Z"
+  },
+  {
+    "id": "7d87e535-a4d2-4db3-8526-c01d61eeb11b",
+    "action": "EXTERNAL_REPORT_GENERATED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U001",
+    "details": {
+      "reportId": "EXT-CMP-2026-00002-1791483370317"
+    },
+    "timestamp": "2026-10-08T18:16:10.318Z"
+  },
+  {
+    "id": "f6ba2b6e-6676-4bc8-8e7b-079d8c79c28f",
+    "action": "STUDENT_CONFIRMATION",
+    "complaintId": "CMP-2026-00001",
+    "userId": "U001",
+    "details": {
+      "response": "yes",
+      "newStatus": "closed"
+    },
+    "timestamp": "2026-10-08T18:16:24.621Z"
+  },
+  {
+    "id": "3f96fcba-8a48-4f27-a198-d22fa4d74de1",
+    "action": "COMPLAINT_CREATED",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U001",
+    "details": {
+      "category": "campus_maintenance",
+      "severity": "normal"
+    },
+    "timestamp": "2026-10-08T18:16:55.233Z"
+  },
+  {
+    "id": "0482a958-ae98-4f90-b2c6-cfabc26a1554",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U003",
+    "details": {
+      "stage": "Received",
+      "nextStage": "Assigned",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:17:42.643Z"
+  },
+  {
+    "id": "897b92f7-988b-4221-a378-5bd64e40fa6e",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U003",
+    "details": {
+      "stage": "Assigned",
+      "nextStage": "Inspection",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:17:43.063Z"
+  },
+  {
+    "id": "0c434b1b-07db-4e3b-8424-9802365ea932",
+    "action": "STAGE_COMPLETED",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U003",
+    "details": {
+      "stage": "Inspection",
+      "nextStage": "Action/Repair",
+      "note": ""
+    },
+    "timestamp": "2026-10-08T18:17:44.897Z"
+  },
+  {
+    "id": "a3f79b61-529e-4705-88d0-aed354bc80c1",
+    "action": "RESOLUTION_PROPOSED",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U003",
+    "details": {
+      "description": "we work and fix it your issue"
+    },
+    "timestamp": "2026-10-08T18:18:02.894Z"
+  },
+  {
+    "id": "1eaef375-1a94-420f-ae35-d2672f921a06",
+    "action": "STUDENT_CONFIRMATION",
+    "complaintId": "CMP-2026-00003",
+    "userId": "U001",
+    "details": {
+      "response": "no",
+      "newStatus": "reopened"
+    },
+    "timestamp": "2026-10-08T18:18:24.960Z"
+  },
+  {
+    "id": "75945211-70c6-4fb3-8e86-79cbd0a5f28c",
+    "action": "RESOLUTION_PROPOSED",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U003",
+    "details": {
+      "description": "vvvv "
+    },
+    "timestamp": "2026-10-08T18:34:36.747Z"
+  },
+  {
+    "id": "138d6571-c31d-4145-8396-064a1b05bbc1",
+    "action": "STUDENT_CONFIRMATION",
+    "complaintId": "CMP-2026-00002",
+    "userId": "U001",
+    "details": {
+      "response": "yes",
+      "newStatus": "closed"
+    },
+    "timestamp": "2026-10-08T18:34:50.662Z"
+  }
+]

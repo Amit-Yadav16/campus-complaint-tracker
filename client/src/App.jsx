@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 
 import Login                 from './pages/Login';
+import LandingPage           from './pages/LandingPage';
 import StudentDashboard      from './pages/StudentDashboard';
 import SubmitComplaint       from './pages/SubmitComplaint';
 import MyComplaints          from './pages/MyComplaints';
@@ -40,7 +41,7 @@ export default function App() {
         <Routes>
           {/* Public */}
           <Route path="/login" element={<Login />} />
-          <Route path="/"      element={<RoleRedirect />} />
+          <Route path="/"      element={<LandingPage />} />
 
           {/* ── Student ─────────────────────────────────────────────────── */}
           <Route path="/student/dashboard" element={

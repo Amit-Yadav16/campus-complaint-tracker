@@ -1,1 +1,417 @@
-[]
+[
+  {
+    "id": "CMP-2026-00001",
+    "studentId": "U001",
+    "category": "examination",
+    "description": "college not allowed to seat in exam",
+    "location": "Room no.503",
+    "mobile": "6944553434",
+    "evidenceNote": "",
+    "severity": "high",
+    "status": "closed",
+    "stages": [
+      {
+        "name": "Received",
+        "completedAt": "2026-10-08T18:08:31.702Z",
+        "completedBy": "system",
+        "note": "Complaint submitted by student"
+      },
+      {
+        "name": "Examination Department",
+        "completedAt": "2026-10-08T18:09:48.008Z",
+        "completedBy": "U004",
+        "note": ""
+      },
+      {
+        "name": "Documents Verified",
+        "completedAt": "2026-10-08T18:09:50.404Z",
+        "completedBy": "U004",
+        "note": ""
+      },
+      {
+        "name": "Decision/Action",
+        "completedAt": "2026-10-08T18:15:29.230Z",
+        "completedBy": "U003",
+        "note": "Resolution proposed"
+      },
+      {
+        "name": "Resolution Proposed",
+        "completedAt": "2026-10-08T18:15:29.230Z",
+        "completedBy": "U003",
+        "note": "add"
+      }
+    ],
+    "currentStageIndex": 4,
+    "stageTemplate": [
+      "Received",
+      "Examination Department",
+      "Documents Verified",
+      "Decision/Action",
+      "Resolution Proposed"
+    ],
+    "createdAt": "2026-10-08T18:08:31.702Z",
+    "slaDeadline": "2026-10-13T12:30:00.000Z",
+    "slaStatus": "on_track",
+    "escalation": null,
+    "resolution": {
+      "proposedAt": "2026-10-08T18:15:29.230Z",
+      "proposedBy": "U003",
+      "description": "add",
+      "studentResponse": "yes",
+      "respondedAt": "2026-10-08T18:16:24.620Z"
+    },
+    "confirmation": null,
+    "externalReport": null,
+    "departmentId": "DEPT-003",
+    "assignedAdminId": null,
+    "isExternalReportEligible": false,
+    "timeline": [
+      {
+        "event": "Complaint submitted",
+        "timestamp": "2026-10-08T18:08:31.702Z",
+        "by": "system",
+        "note": "Category: Examination | Severity: high | SLA: 3 working days"
+      },
+      {
+        "event": "Stage completed: Received",
+        "timestamp": "2026-10-08T18:09:46.884Z",
+        "by": "U004",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Examination Department",
+        "timestamp": "2026-10-08T18:09:46.884Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Examination Department",
+        "timestamp": "2026-10-08T18:09:48.008Z",
+        "by": "U004",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Documents Verified",
+        "timestamp": "2026-10-08T18:09:48.008Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Documents Verified",
+        "timestamp": "2026-10-08T18:09:50.404Z",
+        "by": "U004",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Decision/Action",
+        "timestamp": "2026-10-08T18:09:50.404Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Resolution proposed",
+        "timestamp": "2026-10-08T18:15:29.230Z",
+        "by": "U003",
+        "note": "add"
+      },
+      {
+        "event": "Awaiting student confirmation",
+        "timestamp": "2026-10-08T18:15:29.230Z",
+        "by": "system",
+        "note": "Student must confirm YES or NO"
+      },
+      {
+        "event": "Student confirmed: Issue resolved ✅",
+        "timestamp": "2026-10-08T18:16:24.620Z",
+        "by": "U001",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "CMP-2026-00002",
+    "studentId": "U001",
+    "category": "threat_assault",
+    "description": "sexual harrasement by physiscs teacher",
+    "location": "A-202",
+    "mobile": "9372021474",
+    "evidenceNote": "",
+    "severity": "critical",
+    "status": "closed",
+    "stages": [
+      {
+        "name": "Received",
+        "completedAt": "2026-10-08T18:12:40.257Z",
+        "completedBy": "system",
+        "note": "Complaint submitted by student"
+      },
+      {
+        "name": "Authorized Authority Notified",
+        "completedAt": "2026-10-08T18:14:48.784Z",
+        "completedBy": "U003",
+        "note": ""
+      },
+      {
+        "name": "Investigation",
+        "completedAt": "2026-10-08T18:14:52.064Z",
+        "completedBy": "U003",
+        "note": ""
+      },
+      {
+        "name": "Action Taken",
+        "completedAt": "2026-10-08T18:15:02.089Z",
+        "completedBy": "U003",
+        "note": "Resolution proposed"
+      },
+      {
+        "name": "Resolution Proposed",
+        "completedAt": "2026-10-08T18:15:02.089Z",
+        "completedBy": "U003",
+        "note": "sdddddd"
+      },
+      {
+        "name": "Resolution Proposed",
+        "completedAt": "2026-10-08T18:34:36.746Z",
+        "completedBy": "U003",
+        "note": "vvvv "
+      }
+    ],
+    "currentStageIndex": 4,
+    "stageTemplate": [
+      "Received",
+      "Authorized Authority Notified",
+      "Investigation",
+      "Action Taken",
+      "Resolution Proposed"
+    ],
+    "createdAt": "2026-10-08T18:12:40.257Z",
+    "slaDeadline": "2026-10-09T12:30:00.000Z",
+    "slaStatus": "on_track",
+    "escalation": null,
+    "resolution": {
+      "proposedAt": "2026-10-08T18:34:36.746Z",
+      "proposedBy": "U003",
+      "description": "vvvv ",
+      "studentResponse": "yes",
+      "respondedAt": "2026-10-08T18:34:50.661Z"
+    },
+    "confirmation": null,
+    "externalReport": {
+      "reportId": "EXT-CMP-2026-00002-1791483370317",
+      "generatedAt": "2026-10-08T18:16:10.317Z",
+      "requestedBy": "U001"
+    },
+    "departmentId": "DEPT-008",
+    "assignedAdminId": null,
+    "isExternalReportEligible": true,
+    "timeline": [
+      {
+        "event": "Complaint submitted",
+        "timestamp": "2026-10-08T18:12:40.257Z",
+        "by": "system",
+        "note": "Category: Threat / Assault | Severity: critical | SLA: 1 working days"
+      },
+      {
+        "event": "Stage completed: Received",
+        "timestamp": "2026-10-08T18:14:46.677Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Authorized Authority Notified",
+        "timestamp": "2026-10-08T18:14:46.677Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Authorized Authority Notified",
+        "timestamp": "2026-10-08T18:14:48.784Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Investigation",
+        "timestamp": "2026-10-08T18:14:48.784Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Investigation",
+        "timestamp": "2026-10-08T18:14:52.064Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Action Taken",
+        "timestamp": "2026-10-08T18:14:52.064Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Resolution proposed",
+        "timestamp": "2026-10-08T18:15:02.089Z",
+        "by": "U003",
+        "note": "sdddddd"
+      },
+      {
+        "event": "Awaiting student confirmation",
+        "timestamp": "2026-10-08T18:15:02.089Z",
+        "by": "system",
+        "note": "Student must confirm YES or NO"
+      },
+      {
+        "event": "Student rejected: Issue NOT resolved ❌ — complaint reopened",
+        "timestamp": "2026-10-08T18:15:48.138Z",
+        "by": "U001",
+        "note": ""
+      },
+      {
+        "event": "Resolution proposed",
+        "timestamp": "2026-10-08T18:34:36.746Z",
+        "by": "U003",
+        "note": "vvvv "
+      },
+      {
+        "event": "Awaiting student confirmation",
+        "timestamp": "2026-10-08T18:34:36.746Z",
+        "by": "system",
+        "note": "Student must confirm YES or NO"
+      },
+      {
+        "event": "Student confirmed: Issue resolved ✅",
+        "timestamp": "2026-10-08T18:34:50.661Z",
+        "by": "U001",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "CMP-2026-00003",
+    "studentId": "U001",
+    "category": "campus_maintenance",
+    "description": "fan not work\n",
+    "location": "A-202",
+    "mobile": "9372021474",
+    "evidenceNote": "",
+    "severity": "normal",
+    "status": "reopened",
+    "stages": [
+      {
+        "name": "Received",
+        "completedAt": "2026-10-08T18:16:55.230Z",
+        "completedBy": "system",
+        "note": "Complaint submitted by student"
+      },
+      {
+        "name": "Assigned",
+        "completedAt": "2026-10-08T18:17:43.062Z",
+        "completedBy": "U003",
+        "note": ""
+      },
+      {
+        "name": "Inspection",
+        "completedAt": "2026-10-08T18:17:44.895Z",
+        "completedBy": "U003",
+        "note": ""
+      },
+      {
+        "name": "Action/Repair",
+        "completedAt": "2026-10-08T18:18:02.893Z",
+        "completedBy": "U003",
+        "note": "Resolution proposed"
+      },
+      {
+        "name": "Resolution Proposed",
+        "completedAt": "2026-10-08T18:18:02.893Z",
+        "completedBy": "U003",
+        "note": "we work and fix it your issue"
+      }
+    ],
+    "currentStageIndex": 4,
+    "stageTemplate": [
+      "Received",
+      "Assigned",
+      "Inspection",
+      "Action/Repair",
+      "Resolution Proposed"
+    ],
+    "createdAt": "2026-10-08T18:16:55.230Z",
+    "slaDeadline": "2026-10-19T12:30:00.000Z",
+    "slaStatus": "on_track",
+    "escalation": null,
+    "resolution": {
+      "proposedAt": "2026-10-08T18:18:02.893Z",
+      "proposedBy": "U003",
+      "description": "we work and fix it your issue",
+      "studentResponse": "no",
+      "respondedAt": "2026-10-08T18:18:24.959Z"
+    },
+    "confirmation": null,
+    "externalReport": null,
+    "departmentId": "DEPT-004",
+    "assignedAdminId": null,
+    "isExternalReportEligible": false,
+    "timeline": [
+      {
+        "event": "Complaint submitted",
+        "timestamp": "2026-10-08T18:16:55.230Z",
+        "by": "system",
+        "note": "Category: Campus Maintenance | Severity: normal | SLA: 7 working days"
+      },
+      {
+        "event": "Stage completed: Received",
+        "timestamp": "2026-10-08T18:17:42.641Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Assigned",
+        "timestamp": "2026-10-08T18:17:42.641Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Assigned",
+        "timestamp": "2026-10-08T18:17:43.062Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Inspection",
+        "timestamp": "2026-10-08T18:17:43.062Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Stage completed: Inspection",
+        "timestamp": "2026-10-08T18:17:44.895Z",
+        "by": "U003",
+        "note": ""
+      },
+      {
+        "event": "Stage started: Action/Repair",
+        "timestamp": "2026-10-08T18:17:44.895Z",
+        "by": "system",
+        "note": ""
+      },
+      {
+        "event": "Resolution proposed",
+        "timestamp": "2026-10-08T18:18:02.893Z",
+        "by": "U003",
+        "note": "we work and fix it your issue"
+      },
+      {
+        "event": "Awaiting student confirmation",
+        "timestamp": "2026-10-08T18:18:02.893Z",
+        "by": "system",
+        "note": "Student must confirm YES or NO"
+      },
+      {
+        "event": "Student rejected: Issue NOT resolved ❌ — complaint reopened",
+        "timestamp": "2026-10-08T18:18:24.959Z",
+        "by": "U001",
+        "note": ""
+      }
+    ]
+  }
+]

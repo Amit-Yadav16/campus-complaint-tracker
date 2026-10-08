@@ -1,1 +1,281 @@
-[]
+[
+  {
+    "id": "dd1f2217-4d8a-42a2-98b6-505154ef1f1e",
+    "userId": "U002",
+    "type": "info",
+    "message": "New complaint CMP-2026-00001 submitted (Examination)",
+    "complaintId": "CMP-2026-00001",
+    "read": false,
+    "createdAt": "2026-10-08T18:08:31.706Z"
+  },
+  {
+    "id": "8e4de6d2-2a03-49c2-b6a3-16c254acc36d",
+    "userId": "U004",
+    "type": "info",
+    "message": "New complaint CMP-2026-00001 submitted (Examination)",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:08:31.707Z"
+  },
+  {
+    "id": "cca76682-4802-48f7-ac6e-a5135595f8bd",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00001: Stage \"Received\" completed. Now at: \"Examination Department\".",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:09:46.886Z"
+  },
+  {
+    "id": "29c2d297-073e-494e-9b57-8f99d4309e6a",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00001: Stage \"Examination Department\" completed. Now at: \"Documents Verified\".",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:09:48.010Z"
+  },
+  {
+    "id": "7ba02147-ddf6-499f-aa48-1cf0a8f508a6",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00001: Stage \"Documents Verified\" completed. Now at: \"Decision/Action\".",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:09:50.407Z"
+  },
+  {
+    "id": "c9254608-d58e-4fc2-bf1b-6f8911c19665",
+    "userId": "U002",
+    "type": "info",
+    "message": "New complaint CMP-2026-00002 submitted (Threat / Assault)",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:12:40.262Z"
+  },
+  {
+    "id": "5ccb61f5-421c-40a8-86c1-268f3c11613b",
+    "userId": "U004",
+    "type": "info",
+    "message": "New complaint CMP-2026-00002 submitted (Threat / Assault)",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:12:40.263Z"
+  },
+  {
+    "id": "8a987e8b-1c06-49b3-b1c0-b21b3d0117ae",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00002: Stage \"Received\" completed. Now at: \"Authorized Authority Notified\".",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:14:46.680Z"
+  },
+  {
+    "id": "c16acb74-8ba2-4a29-9293-6b0478f6870a",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00002: Stage \"Authorized Authority Notified\" completed. Now at: \"Investigation\".",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:14:48.786Z"
+  },
+  {
+    "id": "1e9731a2-f3ee-45df-913a-056c05ec62ba",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00002: Stage \"Investigation\" completed. Now at: \"Action Taken\".",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:14:52.067Z"
+  },
+  {
+    "id": "850bb978-fc48-4574-a2f4-f251e835bbb0",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00002: A resolution has been proposed. Please confirm if your issue is resolved.",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:15:02.091Z"
+  },
+  {
+    "id": "64c691e9-3156-4fc0-b690-7279f36a7d53",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00001: A resolution has been proposed. Please confirm if your issue is resolved.",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:15:29.233Z"
+  },
+  {
+    "id": "b9b73dd0-6490-491e-b39d-464d727ea6f1",
+    "userId": "U002",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00002 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:15:48.141Z"
+  },
+  {
+    "id": "44982690-6ce9-4f8e-be75-d15f6c732894",
+    "userId": "U003",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00002 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:15:48.142Z"
+  },
+  {
+    "id": "d21b0bb5-365f-4314-81ec-bc277eed7a84",
+    "userId": "U004",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00002 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00002",
+    "read": true,
+    "createdAt": "2026-10-08T18:15:48.143Z"
+  },
+  {
+    "id": "458c5517-0b50-4b85-a861-71373086de8b",
+    "userId": "U002",
+    "type": "success",
+    "message": "Complaint CMP-2026-00001 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00001",
+    "read": false,
+    "createdAt": "2026-10-08T18:16:24.622Z"
+  },
+  {
+    "id": "1cd1467d-1fd3-4d61-9aed-a63de492b359",
+    "userId": "U003",
+    "type": "success",
+    "message": "Complaint CMP-2026-00001 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00001",
+    "read": false,
+    "createdAt": "2026-10-08T18:16:24.624Z"
+  },
+  {
+    "id": "c5503342-b4bb-4d9d-bbe4-428312184229",
+    "userId": "U004",
+    "type": "success",
+    "message": "Complaint CMP-2026-00001 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00001",
+    "read": true,
+    "createdAt": "2026-10-08T18:16:24.625Z"
+  },
+  {
+    "id": "d0cb571d-6605-4528-86d0-2ad55f922535",
+    "userId": "U002",
+    "type": "info",
+    "message": "New complaint CMP-2026-00003 submitted (Campus Maintenance)",
+    "complaintId": "CMP-2026-00003",
+    "read": false,
+    "createdAt": "2026-10-08T18:16:55.235Z"
+  },
+  {
+    "id": "1700165c-1d41-4aa1-bc81-c1f31042ff36",
+    "userId": "U004",
+    "type": "info",
+    "message": "New complaint CMP-2026-00003 submitted (Campus Maintenance)",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:16:55.236Z"
+  },
+  {
+    "id": "730ed4e6-06b3-4421-871a-f78373c898f0",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00003: Stage \"Received\" completed. Now at: \"Assigned\".",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:17:42.644Z"
+  },
+  {
+    "id": "4107a324-b7fc-4c65-a734-b12ca1ddf778",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00003: Stage \"Assigned\" completed. Now at: \"Inspection\".",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:17:43.065Z"
+  },
+  {
+    "id": "5ed6622d-ac97-4a24-80fb-465706957d29",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00003: Stage \"Inspection\" completed. Now at: \"Action/Repair\".",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:17:44.898Z"
+  },
+  {
+    "id": "3ecb4c0b-d7b0-42c3-b8b6-6db1a5f94b61",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00003: A resolution has been proposed. Please confirm if your issue is resolved.",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:18:02.895Z"
+  },
+  {
+    "id": "4e219b2b-709d-453e-8f66-b7950cf73d3b",
+    "userId": "U002",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00003 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00003",
+    "read": false,
+    "createdAt": "2026-10-08T18:18:24.962Z"
+  },
+  {
+    "id": "e220a951-51fa-4b5b-acc4-5da317c3f06a",
+    "userId": "U003",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00003 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00003",
+    "read": false,
+    "createdAt": "2026-10-08T18:18:24.963Z"
+  },
+  {
+    "id": "a7d18c44-3e90-4482-bf55-36fe7073d392",
+    "userId": "U004",
+    "type": "warning",
+    "message": "Complaint CMP-2026-00003 has been reopened as the student reported the issue is not resolved.",
+    "complaintId": "CMP-2026-00003",
+    "read": true,
+    "createdAt": "2026-10-08T18:18:24.964Z"
+  },
+  {
+    "id": "ab9eaa05-d35a-4bce-b63d-d8492d7e6c68",
+    "userId": "U001",
+    "type": "info",
+    "message": "Complaint CMP-2026-00002: A resolution has been proposed. Please confirm if your issue is resolved.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:34:36.748Z"
+  },
+  {
+    "id": "9bb88d06-5e55-47cd-950f-0ebf8f3cde71",
+    "userId": "U002",
+    "type": "success",
+    "message": "Complaint CMP-2026-00002 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:34:50.664Z"
+  },
+  {
+    "id": "c6bd0846-ad90-4634-98de-763b17579624",
+    "userId": "U003",
+    "type": "success",
+    "message": "Complaint CMP-2026-00002 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:34:50.665Z"
+  },
+  {
+    "id": "fc60a62d-63ce-4cd5-b315-5c586a360801",
+    "userId": "U004",
+    "type": "success",
+    "message": "Complaint CMP-2026-00002 has been closed. Thank you for your feedback.",
+    "complaintId": "CMP-2026-00002",
+    "read": false,
+    "createdAt": "2026-10-08T18:34:50.667Z"
+  }
+]
